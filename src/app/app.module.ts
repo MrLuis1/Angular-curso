@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contador/contador.module';
 import { HerosModule } from "./heroes/heroes.module";
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -17,7 +18,8 @@ import { HerosModule } from "./heroes/heroes.module";
     imports: [
         BrowserModule,
         HerosModule,
-        ContadorModule
+        ContadorModule,
+        DbzModule ,
     ]
 })
 export class AppModule { }
